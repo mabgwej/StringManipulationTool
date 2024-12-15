@@ -1,7 +1,6 @@
-# tests/test_string_tool.py
-
 import unittest
 from string_tool.main import count_words, reverse_string, is_palindrome
+
 
 class TestStringFunctions(unittest.TestCase):
 
@@ -20,8 +19,11 @@ class TestStringFunctions(unittest.TestCase):
     def test_is_palindrome(self):
         self.assertTrue(is_palindrome("A man a plan a canal Panama"))
         self.assertFalse(is_palindrome("Hello"))
-        self.assertTrue(is_palindrome("No 'x' in Nixon"))  # Palindrome with punctuation
+        self.assertTrue(
+            is_palindrome("No 'x' in Nixon")
+        )  # Palindrome with punctuation
         self.assertTrue(is_palindrome(""))  # Edge case: empty string
+
 
 if __name__ == "__main__":
     unittest.main()

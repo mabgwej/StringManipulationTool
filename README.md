@@ -11,28 +11,38 @@ A simple Python tool for manipulating and analyzing strings.
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/StringManipulationTool.git
    ```
+
 2. Navigate into the project folder:
+
    ```bash
    cd StringManipulationTool
    ```
+
 3. Set up a virtual environment:
+
    ```bash
    python -m venv venv
    ```
+
 4. Activate the virtual environment:
    - On Windows:
+
      ```bash
      venv\Scripts\activate
      ```
+
    - On macOS/Linux:
+
      ```bash
      source venv/bin/activate
      ```
 
 5. Install dependencies (if any):
+
    ```bash
    pip install -r requirements.txt
    ```
